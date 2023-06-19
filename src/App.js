@@ -14,9 +14,9 @@ const App = () => {
     const navigate = useNavigate();
     return (
         <Routes>
-            <Route path="/" element={<Shell totalPriceChanged={totalPriceChanged}/>} />
+            <Route path="/ShellMFE" element={<Shell totalPriceChanged={totalPriceChanged}/>} />
             <Route path="/Order" element={<ErrorBoundary><Order totalPrice={totalPrice} onHideCart={() => {
-                navigate('/');
+                navigate('/ShellMFE');
             }}/></ErrorBoundary>} />
         </Routes>
     )
