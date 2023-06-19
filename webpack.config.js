@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const deps = require('./package.json').dependencies;
 module.exports = {
-    devtool: "eval-cheap-source-map",
     mode: "development",
     devServer: {
         port: 8088
