@@ -15,7 +15,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_App_js\")]).then(__webpack_require__.bind(__webpack_require__, /*! ./App */ \"./src/App.js\"));\n\n//# sourceURL=webpack://meals/./src/index.js?");
+eval("Promise.all(/*! import() */[__webpack_require__.e(\"webpack_sharing_consume_default_react_react\"), __webpack_require__.e(\"src_App_js\")]).then(__webpack_require__.bind(__webpack_require__, /*! ./App */ \"./src/App.js\"));\n\n//# sourceURL=webpack://shell/./src/index.js?");
 
 /***/ }),
 
@@ -247,7 +247,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "meals:";
+/******/ 		var dataWebpackPrefix = "shell:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -411,7 +411,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 			var warn = (msg) => {
 /******/ 				if (typeof console !== "undefined" && console.warn) console.warn(msg);
 /******/ 			};
-/******/ 			var uniqueName = "meals";
+/******/ 			var uniqueName = "shell";
 /******/ 			var register = (name, version, factory, eager) => {
 /******/ 				var versions = scope[name] = scope[name] || {};
 /******/ 				var activeVersion = versions[version];
@@ -735,7 +735,7 @@ module.exports = new Promise((resolve, reject) => {
 /******/ 		
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkmeals"] = self["webpackChunkmeals"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkshell"] = self["webpackChunkshell"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
